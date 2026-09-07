@@ -24,7 +24,11 @@ dependencies:
   collection: ^1.15.0
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.21.0
+  flutter_hooks:
+    git:
+      url: https://github.com/emisanpre/flutter_hooks.git
+      ref: internal/migrate_design_widgets
+      path: packages/flutter_hooks
   flutter_riverpod: 3.4.3
   flutter_test:
     sdk: flutter

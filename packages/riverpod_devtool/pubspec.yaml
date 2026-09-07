@@ -13,7 +13,11 @@ dependencies:
   devtools_extensions: ^0.4.0
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.21.3+1
+  flutter_hooks:
+    git:
+      url: https://github.com/emisanpre/flutter_hooks.git
+      ref: internal/migrate_design_widgets
+      path: packages/flutter_hooks
   freezed_annotation: ^3.1.0
   hooks_riverpod: 3.4.3
   intl: ^0.20.2

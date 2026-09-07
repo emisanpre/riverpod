@@ -12,7 +12,11 @@ dependencies:
   dio: 5.11.0
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.21.2
+  flutter_hooks:
+    git:
+      url: https://github.com/emisanpre/flutter_hooks.git
+      ref: internal/migrate_design_widgets
+      path: packages/flutter_hooks
   freezed_annotation: ^3.0.0
   hooks_riverpod:
   html: ^0.15.0
